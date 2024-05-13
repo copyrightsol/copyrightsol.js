@@ -28,7 +28,7 @@ export default function HomePage() {
           <div className="lg:col-span-2 text-center lg:text-left">
             <div className="flex items-center justify-center md:justify-start">
               <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
-                Welcome to Copyright.FUN
+                WELCOME TO COPYRIGHT.FUN
               </h1>
               <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
             </div>
