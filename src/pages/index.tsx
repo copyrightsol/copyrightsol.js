@@ -30,7 +30,7 @@ export default function HomePage() {
               <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
                 WELCOME TO COPYRIGHT.FUN
               </h1>
-              <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
+              <img src="/wave.gif" className="h-14" alt="Copyright Logo" />
             </div>
           </div>
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
