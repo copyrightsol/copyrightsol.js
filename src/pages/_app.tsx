@@ -68,6 +68,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                   creator={PLATFORM_CREATOR_ADDRESS}
                   defaultCreatorFee={PLATFORM_CREATOR_FEE}
                   defaultJackpotFee={PLATFORM_JACKPOT_FEE}
+                  defaultPool={TOKENLIST[1].poolAuthority}
                 >
                   <Header />
                   <DefaultSeo {...BASE_SEO_CONFIG} />
