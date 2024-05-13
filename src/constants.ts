@@ -7,7 +7,7 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 );
 
 // Platform fees
-export const PLATFORM_CREATOR_FEE = 0.15; // 15%
+export const PLATFORM_CREATOR_FEE = 0.05; // 5%
 export const PLATFORM_JACKPOT_FEE = 0.01; // 1%
 
 // Toggle live toast events - all game events (true = on, false = off)
