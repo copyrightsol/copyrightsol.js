@@ -22,8 +22,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 2,
     },
     app: dynamic(() => import("./Dice")),
-  },*/
-  /*{
+  },
+  {
     id: "slots",
     meta: {
       background: "#2196F3",
@@ -33,8 +33,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 3,
     },
     app: dynamic(() => import("./Slots")),
-  },*/
-  /*{
+  },
+  {
     id: "flip",
     meta: {
       background: "#FFEB3B",
@@ -44,8 +44,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 1,
     },
     app: dynamic(() => import("./Flip")),
-  },*/
-  /*{
+  },
+  {
     id: "hilo",
     meta: {
       background: "#F44336",
@@ -56,7 +56,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     props: { logo: "/logo.svg" },
     app: dynamic(() => import("./HiLo")),
-  },*/
+  },
   {
     id: "mines",
     meta: {
@@ -68,7 +68,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Mines")),
   },
-  /*{
+  {
     id: "roulette",
     meta: {
       background: "#4CAF50",
@@ -78,18 +78,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 3,
     },
     app: dynamic(() => import("./Roulette")),
-  },*/
-  /*{
-    id: "plinko",
-    meta: {
-      background: "#00BCD4",
-      name: "Plinko",
-      image: "/games/logo.png",
-      description: `Plinko transforms the act of dropping chips into an art form, where anticipation and strategy converge to create an endlessly entertaining spectacle. Witness the tension mount with each chip's descent down the pegged board, as they randomly find their place among slots boasting varying win amounts. Each drop offers a delicate balance between luck and skill, making Plinko a captivating odyssey of chance and strategy. ⚠️ Under development. Results shown might be incorrect. ⚠️`,
-      volatility: 3,
-    },
-    app: dynamic(() => import("./Plinko")),
-  },*/
+  },
   {
     id: "limbo",
     meta: {
@@ -111,6 +100,17 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 4,
     },
     app: dynamic(() => import("./Keno")),
+  },*/
+  {
+    id: "plinko",
+    meta: {
+      background: "#00BCD4",
+      name: "Plinko",
+      image: "/games/logo.png",
+      description: `Plinko transforms the act of dropping chips into an art form, where anticipation and strategy converge to create an endlessly entertaining spectacle. Witness the tension mount with each chip's descent down the pegged board, as they randomly find their place among slots boasting varying win amounts. Each drop offers a delicate balance between luck and skill, making Plinko a captivating odyssey of chance and strategy. ⚠️ Under development. Results shown might be incorrect. ⚠️`,
+      volatility: 3,
+    },
+    app: dynamic(() => import("./Plinko")),
   },
   {
     id: "crash",
