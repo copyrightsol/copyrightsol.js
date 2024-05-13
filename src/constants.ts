@@ -76,7 +76,7 @@ export const BASE_SEO_CONFIG = {
   additionalMetaTags: [
     {
       name: "keywords",
-      content: "casino, gaming, rewards, gambling, entertainment",
+      content: "casino, gaming, rewards, gambling, entertainment, copyrightsol",
     },
     {
       name: "theme-color",
