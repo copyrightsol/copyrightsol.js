@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-blue-800 to-purple-800 rounded-t-2xl shadow-t-3xl">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+        <div className="flex justify-center items-center flex-col sm:flex-row sm:justify-between">
+          <ul className="flex flex-wrap items-center justify-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             {FOOTER_LINKS.map((link) => (
-              <li key={link.href}>
+              <li key={link.href} className="text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
