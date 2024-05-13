@@ -39,7 +39,6 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/copyrightsol",
   title: "© 2024 CPRSOL.FUN is owned and operated by COPYRIGHTSOL Holdings Limited (Cyprus)",
 };
 
