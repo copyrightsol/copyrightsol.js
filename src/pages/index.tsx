@@ -28,38 +28,26 @@ export default function HomePage() {
           <div className="lg:col-span-2 text-center lg:text-left">
             <div className="flex items-center justify-center md:justify-start">
               <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
-                Welcome to Gamba
+                Welcome to Copyright.FUN
               </h1>
               <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
             </div>
-            <p className="mt-4 text-white drop-shadow">
-              The gambleFi protocol with end-to-end tools for on-chain
-              degeneracy on Solana.
-            </p>
           </div>
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
             <button
-              onClick={() =>
-                window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")
-              }
+              onClick={() => window.open("http://cprsol.com/")}
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              👨‍💻 Build your own
+              ‍💻 Watch the Vision
             </button>
             <button
-              onClick={() => window.open("https://gamba.so/docs")}
+              onClick={() => window.open("https://t.me/copyrightsolv2")}
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              📖 Gamba Docs
+              🚀 Join Telegram
             </button>
             <button
-              onClick={() => window.open("https://explorer.gamba.so")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
-            >
-              🌐 Explorer
-            </button>
-            <button
-              onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
+              onClick={() => window.open("https://discord.gg/copyrightsol")}
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               💬 Join Discord
