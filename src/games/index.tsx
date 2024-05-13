@@ -68,7 +68,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Mines")),
   },
-  {
+  /*{
     id: "roulette",
     meta: {
       background: "#4CAF50",
@@ -78,7 +78,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 3,
     },
     app: dynamic(() => import("./Roulette")),
-  },
+  },*/
   /*{
     id: "plinko",
     meta: {
@@ -90,7 +90,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Plinko")),
   },*/
-  /*{
+  {
     id: "limbo",
     meta: {
       background: "#FFC107",
@@ -100,7 +100,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 5,
     },
     app: dynamic(() => import("./Limbo")),
-  },*/
+  },
   {
     id: "keno",
     meta: {
