@@ -12,7 +12,7 @@ interface GameMeta {
 }
 
 export const GAMES: GameBundle<GameMeta>[] = [
-  {
+  /*{
     id: "dice",
     meta: {
       background: "#E91E63",
@@ -22,8 +22,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 2,
     },
     app: dynamic(() => import("./Dice")),
-  },
-  {
+  },*/
+  /*{
     id: "slots",
     meta: {
       background: "#2196F3",
@@ -33,8 +33,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 3,
     },
     app: dynamic(() => import("./Slots")),
-  },
-  {
+  },*/
+  /*{
     id: "flip",
     meta: {
       background: "#FFEB3B",
@@ -44,8 +44,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 1,
     },
     app: dynamic(() => import("./Flip")),
-  },
-  {
+  },*/
+  /*{
     id: "hilo",
     meta: {
       background: "#F44336",
@@ -56,7 +56,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     props: { logo: "/logo.svg" },
     app: dynamic(() => import("./HiLo")),
-  },
+  },*/
   {
     id: "mines",
     meta: {
@@ -79,7 +79,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Roulette")),
   },
-  {
+  /*{
     id: "plinko",
     meta: {
       background: "#00BCD4",
@@ -89,8 +89,8 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 3,
     },
     app: dynamic(() => import("./Plinko")),
-  },
-  {
+  },*/
+  /*{
     id: "limbo",
     meta: {
       background: "#FFC107",
@@ -100,7 +100,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 5,
     },
     app: dynamic(() => import("./Limbo")),
-  },
+  },*/
   {
     id: "keno",
     meta: {
