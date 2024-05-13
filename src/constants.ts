@@ -3,7 +3,7 @@ import { PublicKey } from "@solana/web3.js";
 
 // Solana creator to receive fees
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  "GzzWXXDjLD4FDwDkWB5sARjC2aaLSfCQDjx3dmpoTY7K",
+  "9EMpMcQ6z8LnZw8vFggfTM1cp9VdxRQPNZMDeWMEyc7a",
 );
 
 // Platform fees
@@ -102,33 +102,14 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // USDC
+  // Copyrightsol
   {
-    mint: new PublicKey("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"),
-    name: "USD Coin",
-    symbol: "USDC",
+    mint: new PublicKey("CyxzG1wx1gr5JtWxMu8Z7Wzw4Wy9im8b27Sr6d5ZLron"),
+    name: "COPYRIGHTSOL",
+    symbol: "COPYRIGHT",
     image:
-      "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "https://photos.pinksale.finance/file/pinksale-logo-upload/1715629917797-4ae3466d56215938a04af8c039a0389a.png",
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // GUAC
-  {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
-    image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
-    decimals: 5,
-    baseWager: 2000000e5,
-  },
-  // ADD NEW TOKENS HERE
-  // {
-  //   mint: new PublicKey(""),
-  //   name: "",
-  //   symbol: "",
-  //   image: "",
-  //   decimals: 0,
-  //   baseWager: 0,
-  // },
 ];
