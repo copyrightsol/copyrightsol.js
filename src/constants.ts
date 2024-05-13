@@ -93,23 +93,26 @@ export const BASE_SEO_CONFIG = {
 
 export const TOKENLIST = [
   // SOL
-  {
-    mint: new PublicKey("So11111111111111111111111111111111111111112"),
-    name: "Solana",
-    symbol: "SOL",
-    image:
-      "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
-    decimals: 9,
-    baseWager: 0.01e9,
-  },
+  //{
+  //  mint: new PublicKey("So11111111111111111111111111111111111111112"),
+  //  name: "Solana",
+  //  symbol: "SOL",
+  //  image:
+  //    "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+  //  decimals: 9,
+  //  baseWager: 0.01e9,
+  //},
   // Copyrightsol
-  {
+    {
     mint: new PublicKey("CyxzG1wx1gr5JtWxMu8Z7Wzw4Wy9im8b27Sr6d5ZLron"),
+    poolAuthority: new PublicKey(
+      "9EMpMcQ6z8LnZw8vFggfTM1cp9VdxRQPNZMDeWMEyc7a",
+    ),
     name: "COPYRIGHTSOL",
     symbol: "COPYRIGHT",
     image:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1715629917797-4ae3466d56215938a04af8c039a0389a.png",
     decimals: 9,
-    baseWager: 0.01e9,
+    baseWager: 0.01e9, // **DOUBLE CHECK THIS PROLLY IS NOT CORRECT**
   },
 ];
