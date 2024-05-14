@@ -52,17 +52,17 @@ export const FOOTER_TWITTER_LINK = {
 export const BASE_SEO_CONFIG = {
   defaultTitle: "Copyrightsol.fun",
   description:
-    "",
+    "Welcome to copyrightsol.com, a pioneering initiative that aims to redefine the concept of digital ownership and copyright.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "",
+    url: "https://www.cprsol.fun/",
     title: "Copyrightsol.fun",
     description:
-      "",
+      "Welcome to copyrightsol.com, a pioneering initiative that aims to redefine the concept of digital ownership and copyright.",
     images: [
       {
-        url: "",
+        url: "https://i.ibb.co/yYMTydH/biglogo.png",
         alt: "Copyrightsol.fun",
       },
     ],
@@ -106,7 +106,7 @@ export const TOKENLIST = [
     image:
       "https://i.ibb.co/yYMTydH/biglogo.png",
     decimals: 9,
-    baseWager: 0.01e9,
+    baseWager: 1e9 * 1000, // 1000 $COPYRIGHT
   },
   // SOL
   //{
