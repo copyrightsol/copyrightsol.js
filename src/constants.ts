@@ -104,7 +104,7 @@ export const TOKENLIST = [
     name: "COPYRIGHTSOL",
     symbol: "COPYRIGHT",
     image:
-      "https://photos.pinksale.finance/file/pinksale-logo-upload/1715629917797-4ae3466d56215938a04af8c039a0389a.png",
+      "https://ibb.co/qW4Gs7T",
     decimals: 9,
     baseWager: 0.01e9,
   },
