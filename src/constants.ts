@@ -104,7 +104,7 @@ export const TOKENLIST = [
     name: "COPYRIGHTSOL",
     symbol: "COPYRIGHT",
     image:
-      "https://ibb.co/qW4Gs7T",
+      "https://i.ibb.co/yYMTydH/biglogo.png",
     decimals: 9,
     baseWager: 0.01e9,
   },
