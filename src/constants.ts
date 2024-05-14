@@ -52,17 +52,17 @@ export const FOOTER_TWITTER_LINK = {
 export const BASE_SEO_CONFIG = {
   defaultTitle: "Copyrightsol.fun",
   description:
-    "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
+    "",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://play-gamba.vercel.app/",
+    url: "",
     title: "Copyrightsol.fun",
     description:
-      "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
+      "",
     images: [
       {
-        url: "https://play-gamba.vercel.app/seo.png",
+        url: "",
         alt: "Copyrightsol.fun",
       },
     ],
@@ -91,7 +91,23 @@ export const BASE_SEO_CONFIG = {
  * └──────────────────────────────────────┘ *
  ******************************************/
 
+export const COPYRIGHT_MINT = new PublicKey("CyxzG1wx1gr5JtWxMu8Z7Wzw4Wy9im8b27Sr6d5ZLron");
+export const COPYRIGHT_AUTHORITY = new PublicKey("9EMpMcQ6z8LnZw8vFggfTM1cp9VdxRQPNZMDeWMEyc7a");
+
 export const TOKENLIST = [
+  // Copyrightsol
+  {
+    mint: new PublicKey("CyxzG1wx1gr5JtWxMu8Z7Wzw4Wy9im8b27Sr6d5ZLron"),
+    poolAuthority: new PublicKey(
+      "9EMpMcQ6z8LnZw8vFggfTM1cp9VdxRQPNZMDeWMEyc7a",
+    ),
+    name: "COPYRIGHTSOL",
+    symbol: "COPYRIGHT",
+    image:
+      "https://photos.pinksale.finance/file/pinksale-logo-upload/1715629917797-4ae3466d56215938a04af8c039a0389a.png",
+    decimals: 9,
+    baseWager: 0.01e9,
+  },
   // SOL
   //{
   //  mint: new PublicKey("So11111111111111111111111111111111111111112"),
@@ -102,17 +118,4 @@ export const TOKENLIST = [
   //  decimals: 9,
   //  baseWager: 0.01e9,
   //},
-  // Copyrightsol
-    {
-    mint: new PublicKey("CyxzG1wx1gr5JtWxMu8Z7Wzw4Wy9im8b27Sr6d5ZLron"),
-    poolAuthority: new PublicKey(
-      "9EMpMcQ6z8LnZw8vFggfTM1cp9VdxRQPNZMDeWMEyc7a",
-    ),
-    name: "COPYRIGHTSOL",
-    symbol: "COPYRIGHT",
-    image:
-      "https://photos.pinksale.finance/file/pinksale-logo-upload/1715629917797-4ae3466d56215938a04af8c039a0389a.png",
-    decimals: 9,
-    baseWager: 0.01e9, // **DOUBLE CHECK THIS PROLLY IS NOT CORRECT**
-  },
 ];

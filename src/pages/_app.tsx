@@ -3,6 +3,8 @@ import "@/styles/globals.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
 
 import {
+  COPYRIGHT_AUTHORITY,
+  COPYRIGHT_MINT,
   BASE_SEO_CONFIG,
   LIVE_EVENT_TOAST,
   PLATFORM_CREATOR_ADDRESS,
@@ -68,6 +70,10 @@ function MyApp({ Component, pageProps }: AppProps) {
                   creator={PLATFORM_CREATOR_ADDRESS}
                   defaultCreatorFee={PLATFORM_CREATOR_FEE}
                   defaultJackpotFee={PLATFORM_JACKPOT_FEE}
+                  defaultPool={{
+                    token: COPYRIGHT_MINT,
+                    authority: COPYRIGHT_AUTHORITY,
+                  }}
                 >
                   <Header />
                   <DefaultSeo {...BASE_SEO_CONFIG} />
