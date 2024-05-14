@@ -106,7 +106,7 @@ export const TOKENLIST = [
     image:
       "https://i.ibb.co/yYMTydH/biglogo.png",
     decimals: 9,
-    baseWager: 0.01e9,
+    baseWager: 1e9 * 1000, // 1000 $COPYRIGHT
   },
   // SOL
   //{
