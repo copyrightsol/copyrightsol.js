@@ -1,5 +1,10 @@
 // components/ui/TokenSelect.tsx
 import {
+  COPYRIGHT_AUTHORITY,
+  COPYRIGHT_MINT,
+  TOKENLIST,
+} from "../../constants";
+import {
   GambaPlatformContext,
   GambaUi,
   TokenValue,
@@ -11,7 +16,6 @@ import { useContext, useState } from "react";
 
 import GambaPlayButton from "./GambaPlayButton";
 import { Modal } from "./Modal";
-import { TOKENLIST } from "../../constants";
 import { toast } from "sonner";
 import { useUserStore } from "@/hooks/useUserStore";
 
@@ -45,15 +49,20 @@ export default function TokenSelect() {
 
   const setToken = (token: {
     mint: any;
-    name: any;
+    poolAuthority?: any;
+    name: string;
     symbol?: string;
     image?: string;
     decimals?: number;
     baseWager?: number;
   }) => {
     try {
+      if (token.name === "COPYRIGHTSOL") {
+        context.setPool(COPYRIGHT_MINT, COPYRIGHT_AUTHORITY);
+      } else {
+        context.setPool(token.mint);
+      }
       toast.success(`Token set to ${token.name}`);
-      context.setToken(token.mint);
       setModalVisible(false);
     } catch (error) {
       toast.error("Error setting token");
